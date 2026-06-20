@@ -1,0 +1,391 @@
+:root {
+    --bg-color: #A7ADC6;
+    --primary-color: #2C1320;
+    --secondary-color: #5F4B66;
+    --accent-color: #8797AF;
+    --footer-color: #56667A;
+    --text-dark: #2C1320;
+    --text-light: #FFFFFF;
+    --text-muted: #5F4B66;
+    --navbar-bg: #2C1320;
+    --card-bg: #FFFFFF;
+    --button-bg: #56667A;
+    --button-hover: #8797AF;
+    --section-bg: #A7ADC6;
+    --footer-bg: #56667A;
+    --border-color: #8797AF;
+    --shadow-color: rgba(44, 19, 32, 0.15);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter, sans-serif;
+    background-color: var(--bg-color);
+}
+
+
+
+header{
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.logo{
+    width: 140px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name h1{
+    color: var(--text-light);
+    font-family: Montserrat, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: var(--text-light);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color: var(--accent-color);
+}
+
+
+
+.hero{
+    background: linear-gradient(
+        135deg,
+        var(--primary-color),
+        var(--secondary-color)
+    );
+
+    color: white;
+    text-align: center;
+    padding: 100px 50px;
+    
+}
+
+.hero h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    max-width: 800px;
+    margin: 0 auto 15px;
+    line-height: 1.7;
+}
+
+
+
+.btn{
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 12px 25px;
+
+    background-color: var(--button-bg);
+    color: white;
+
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: var(--button-hover);
+}
+
+
+
+.welcome{
+    background-color: white;
+    text-align: center;
+    padding: 80px 50px;
+}
+
+.welcome h2{
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.welcome p{
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.8;
+    padding: 60px;
+    padding-top: 0;
+}
+
+
+
+.featured-services{
+    padding: 80px 50px;
+    background-color: var(--section-bg);
+}
+
+.featured-services h2{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.featured-services p{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 19px;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card{
+    background-color: var(--card-bg);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px var(--shadow-color);
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card h3{
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: var(--text-dark);
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+
+
+.why-us{
+    padding: 80px 50px;
+    background: var(--section-bg);
+    text-align: center;
+}
+
+.why-us h2{
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+
+.why-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.why-card{
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px var(--shadow-color);
+}
+
+.why-card h3{
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.why-card p{
+    line-height: 1.7;
+}
+
+
+
+.stats{
+    padding: 80px 50px;
+    background: var(--primary-color);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+
+    text-align: center;
+}
+
+.stat-box h2{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.stat-box p{
+    color: var(--accent-color);
+    font-size: 18px;
+}
+
+
+
+.tech-stack{
+    padding: 80px 50px;
+    text-align: center;
+    background: var(--section-bg);
+}
+
+.tech-stack h2{
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.tech-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.tech{
+    background: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    box-shadow: 0 3px 10px var(--shadow-color);
+}
+
+
+
+.portfolio-preview{
+    padding: 80px 50px;
+    background: var(--section-bg);
+    text-align: center;
+}
+
+.portfolio-preview h2{
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.portfolio-card{
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px var(--shadow-color);
+    transition: 0.3s;
+}
+
+.portfolio-card:hover{
+    transform: translateY(-8px);
+}
+
+.portfolio-card h3{
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.portfolio-card p{
+    line-height: 1.7;
+}
+
+.testimonials{
+    padding: 80px 50px;
+    background: var(--section-bg);
+    text-align: center;
+}
+
+.testimonials h2{
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+
+.testimonial-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.testimonial-card{
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px var(--shadow-color);
+}
+
+.testimonial-card p{
+    font-style: italic;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.testimonial-card h4{
+    color: var(--footer-color);
+}
+
+
+
+.cta{
+    padding: 100px 50px;
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        var(--primary-color),
+        var(--secondary-color)
+    );
+
+    color: white;
+}
+
+.cta h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cta p{
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+footer{
+    background-color: var(--footer-bg);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
