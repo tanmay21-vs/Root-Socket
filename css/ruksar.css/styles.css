@@ -516,3 +516,66 @@ footer {
     color: #555;
     line-height: 1.5;
 }
+
+.blog-hero h1 {
+    font-size: 46px;
+    color: var(--text-light);
+}
+
+.blog-filters {
+    padding: 60px 20px;
+    text-align: center;
+    background: var(--section-bg);
+}
+
+.blog-filters h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.blog-filters .tech-container {
+    justify-content: center;
+}
+
+.blog-filters .tech {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.blog-filters .tech:hover {
+    background: var(--accent-color);
+    color: white;
+}
+
+.featured-services .card {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.featured-services .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px var(--shadow-color);
+}
+
+.featured-services .card .btn {
+    align-self: flex-start;
+}
+
+.featured-services {
+    background: var(--section-bg);
+}
+
+.cta {
+    background: linear-gradient(135deg,
+            var(--primary-color),
+            var(--secondary-color));
+}
+
+.blog-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    background: var(--accent-color);
+    color: white;
+    margin-bottom: 10px;
+}
