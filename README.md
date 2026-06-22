@@ -127,34 +127,29 @@ This project was developed as part of a diploma group project to demonstrate fro
 
 ## Project Structure
 
-```text
 Root-Socket/
-│
-├── index.html
-│
+├── assets/
+├── css/
+│   ├── ruksar.css
+|   |    |
+|   |    ├── styles.css
+│   └── style.css
 ├── pages/
 │   ├── about.html
-│   ├── services.html
+│   ├── blog.html
+│   ├── careers.html
+│   ├── company-journey.html
+│   ├── contact.html
+│   ├── faq.html
+│   ├── our-process.html
 │   ├── portfolio.html
 │   ├── pricing.html
+│   ├── services.html
 │   ├── team.html
-│   ├── testimonials.html
-│   ├── faq.html
-│   ├── contact.html
-│   ├── company-journey.html
 │   ├── technology-stack.html
-│   └── our-process.html
-│
-├── css/
-│   ├── style.css
-│   └── styles.css
-│
-├── assets/
-│   ├── logo.png
-│   └── team/
-│
+│   └── testimonials.html
+├── index.html
 └── README.md
-```
 
 ---
 
