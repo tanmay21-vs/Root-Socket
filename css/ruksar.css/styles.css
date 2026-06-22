@@ -629,3 +629,68 @@ footer {
         font-size: 28px;
     }
 }
+
+.faq-section {
+    padding: 80px 50px;
+    background: white;
+}
+
+.faq-section h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    max-width: 900px;
+    margin: 15px auto;
+    background: var(--card-bg);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px var(--shadow-color);
+    padding: 20px;
+}
+
+.faq-item summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.faq-item p {
+    margin-top: 15px;
+    line-height: 1.7;
+}
+
+.faq-item[open] {
+    border-left: 5px solid var(--primary-color);
+}
+
+.faq-ratings {
+    padding: 80px 50px;
+    background: white;
+    text-align: center;
+}
+
+.faq-ratings h2 {
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.faq-ratings table {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+.faq-ratings th,
+.faq-ratings td {
+    border: 1px solid var(--border-color);
+    padding: 15px;
+}
+
+.faq-ratings th {
+    background: var(--primary-color);
+    color: white;
+}
