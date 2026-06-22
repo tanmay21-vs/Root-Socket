@@ -17,6 +17,10 @@
     --shadow-color: rgba(44, 19, 32, 0.15);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;

@@ -17,6 +17,10 @@
     --shadow-color: rgba(44, 19, 32, 0.15);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -444,4 +448,233 @@ footer{
 
 .footer-dailer{
     width: 48px;
+}
+
+@media screen and (max-width: 768px) {
+
+    header{
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .logo{
+        width: 90px;
+    }
+
+    .name h1{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .nav-links{
+        font-size: 14px;
+    }
+
+    .hero{
+        padding: 70px 20px;
+    }
+
+    .hero h1,
+    .hero h2{
+        font-size: 32px;
+    }
+
+    .hero p{
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .welcome,
+    .featured-services,
+    .why-us,
+    .tech-stack,
+    .portfolio-preview,
+    .testimonials,
+    .process,
+    .packages,
+    .cta,
+    .journey,
+    .faq-section,
+    .contact-form-section,
+    .process-timeline{
+        padding: 50px 15px;
+    }
+
+    .welcome h2,
+    .featured-services h2,
+    .why-us h2,
+    .tech-stack h2,
+    .portfolio-preview h2,
+    .testimonials h2,
+    .process h2,
+    .packages h2,
+    .cta h2,
+    .journey h2,
+    .faq-section h2,
+    .contact-form-section h2,
+    .process-timeline h2{
+        font-size: 28px;
+    }
+
+    .welcome p{
+        padding: 0;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .cards-container,
+    .why-container,
+    .portfolio-container,
+    .testimonial-container,
+    .process-container,
+    .journey-container{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card,
+    .why-card,
+    .portfolio-card,
+    .testimonial-card,
+    .process-step,
+    .journey-card{
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .card h3,
+    .why-card h3,
+    .portfolio-card h3,
+    .process-step h3,
+    .journey-card h3{
+        font-size: 20px;
+    }
+
+    .card p,
+    .why-card p,
+    .portfolio-card p,
+    .process-step p,
+    .journey-card p{
+        font-size: 14px;
+    }
+
+    .stats{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px 15px;
+    }
+
+    .stat-box h2{
+        font-size: 32px;
+    }
+
+    .stat-box p{
+        font-size: 15px;
+    }
+
+    .tech-container{
+        gap: 10px;
+    }
+
+    .tech{
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .team-img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form select{
+        width: 100%;
+    }
+
+    .timeline-list{
+        padding-left: 20px;
+    }
+
+    footer{
+        text-align: center;
+        padding: 20px;
+    }
+
+    footer p{
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width: 480px){
+
+    .hero{
+        padding: 60px 15px;
+    }
+
+    .hero h1,
+    .hero h2{
+        font-size: 26px;
+    }
+
+    .hero p{
+        font-size: 14px;
+    }
+
+    .name h1{
+        font-size: 18px;
+    }
+
+    nav ul{
+        gap: 8px;
+    }
+
+    .nav-links{
+        font-size: 13px;
+    }
+
+    .stats{
+        grid-template-columns: 1fr;
+    }
+
+    .team-img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .card,
+    .why-card,
+    .portfolio-card,
+    .testimonial-card{
+        padding: 15px;
+    }
+
+    .btn{
+        display: inline-block;
+        width: auto;
+        margin: 8px 4px;
+    }
+
+    .tech{
+        font-size: 12px;
+    }
 }
