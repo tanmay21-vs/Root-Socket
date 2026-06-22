@@ -216,6 +216,6 @@ This project was developed for educational purposes as part of a diploma group p
 
 **Type:** Educational Group Project
 
-**Developed Using:** HTML5, CSS3, Git & GitHub
+**Developed Using:** HTML, CSS, Git & GitHub
 
 **Purpose:** Software Company Website
