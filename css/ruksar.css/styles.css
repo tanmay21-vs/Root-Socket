@@ -731,3 +731,49 @@ footer {
     font-weight: 600;
     color: var(--text-dark);
 }
+
+.process-timeline {
+    padding: 80px 50px;
+    background: white;
+}
+
+.process-timeline h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.timeline-list {
+    max-width: 900px;
+    margin: auto;
+    list-style-position: inside;
+}
+
+.timeline-card {
+    background: var(--card-bg);
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px var(--shadow-color);
+    transition: 0.3s;
+}
+
+.timeline-card:hover {
+    transform: translateY(-5px);
+}
+
+.timeline-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.timeline-card p {
+    line-height: 1.7;
+    color: var(--text-dark);
+}
+
+@media (max-width: 768px) {
+    .process-timeline {
+        padding: 60px 20px;
+    }
+}
