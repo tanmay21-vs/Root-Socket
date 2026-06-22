@@ -1,138 +1,221 @@
-# Root Socket
+# Root Socket Software Solutions
 
-A modern Software Solutions Company website developed as a group project using HTML, CSS, and Bootstrap.
+A responsive multi-page software company website developed as a group project using HTML5 and CSS3.
 
 ## Overview
 
-Root Socket is a fictional software development and IT services company that provides innovative digital solutions for businesses. The website showcases company information, services, portfolio, pricing plans, team members, testimonials, and contact information through a clean and responsive interface.
+Root Socket Software Solutions is a fictional software development and IT services company website designed to showcase professional services, software solutions, technology expertise, client testimonials, pricing packages, and company information through a modern and responsive user interface.
+
+This project was developed as part of a diploma group project to demonstrate front-end web development skills, responsive design principles, and collaborative development using GitHub.
+
+---
 
 ## Features
 
-* Responsive Design
-* Modern User Interface
-* Multi-Page Website Structure
-* Service Showcase
-* Portfolio Display
-* Pricing Packages
-* Team Section
-* Testimonials Section
-* Contact Information
-* Mobile-Friendly Layout
+- Responsive Design
+- Multi-Page Website
+- Modern User Interface
+- Service Showcase
+- Portfolio Display
+- Pricing Packages & Bundles
+- Team Introduction
+- Client Testimonials
+- Technology Stack Showcase
+- FAQ Section
+- Contact Form
+- Company Journey Timeline
+- Development Process Page
+- Mobile-Friendly Layout
 
-## Pages
+---
+
+## Pages Included
 
 ### Home
+- Hero Section
+- Welcome Section
+- Featured Services
+- Why Choose Us
+- Technology Stack Preview
+- Portfolio Preview
+- Call To Action
 
-* Hero Section
-* Welcome Section
-* Featured Services
-* Why Choose Us
-* Technology Stack
-* Portfolio Preview
-* Call To Action
-
-### About Us
-
-* Company Introduction
-* Our Story
-* Mission & Vision
-* Core Values
-* Company Journey
-* Team Overview
+### About
+- Company Story
+- Mission & Vision
+- Core Values
+- Business Overview
 
 ### Services
-
-* Core Services
-* Specialized Solutions
-* Development Process
-* Service Packages
-* Industries We Serve
+- Core Services
+- Specialized Solutions
+- Development Process
+- Service Packages
+- Industries Served
 
 ### Portfolio
-
-* Featured Projects
-* Project Categories
-* Project Highlights
-* Technologies Used
-
-### Team
-
-* Team Members
-* College Information
+- Featured Projects
+- Project Categories
+- Success Stories
+- Technologies Used
 
 ### Pricing
+- Service Packages
+- Popular Bundles
+- Add-On Services
+- Custom Solutions
 
-* Service Packages
-* Popular Bundles
-* Add-On Services
-* Custom Solutions
+### Team
+- Team Members
+- College Information
 
 ### Testimonials
-
-* Client Reviews
-* Success Stories
-* Customer Feedback
-
-### Blog
-
-* Company Articles
-* Technology Insights
-* Industry Updates
+- Client Reviews
+- Customer Feedback
+- Success Stories
 
 ### FAQ
-
-* Frequently Asked Questions
-* Common Customer Queries
-
-### Careers
-
-* Career Opportunities
-* Internship Information
-* Join Our Team
+- Frequently Asked Questions
+- Service Information
+- Support Information
 
 ### Contact
+- Contact Information
+- Project Inquiry Form
+- Communication Channels
 
-* Contact Form
-* Company Information
-* Communication Channels
+### Company Journey
+- Company History
+- Milestones
+- Future Goals
+
+### Technology Stack
+- Technical Skills
+- Development Tools
+- Technologies Used
+
+### Our Process
+- Requirement Analysis
+- Planning & Strategy
+- UI/UX Design
+- Development
+- Testing
+- Deployment
+
+---
 
 ## Technologies Used
 
 ### Frontend
 
-* HTML5
-* CSS3
-* Bootstrap 5
+- HTML5
+- CSS3
+
+### Fonts
+
+- Inter
+- Montserrat
+- Poppins
 
 ### Development Tools
 
-* Visual Studio Code
-* Git
-* GitHub
+- Visual Studio Code
+- Git
+- GitHub
 
+---
+
+## Project Structure
+
+```text
+Root-Socket/
+│
+├── index.html
+│
+├── pages/
+│   ├── about.html
+│   ├── services.html
+│   ├── portfolio.html
+│   ├── pricing.html
+│   ├── team.html
+│   ├── testimonials.html
+│   ├── faq.html
+│   ├── contact.html
+│   ├── company-journey.html
+│   ├── technology-stack.html
+│   └── our-process.html
+│
+├── css/
+│   ├── style.css
+│   └── styles.css
+│
+├── assets/
+│   ├── logo.png
+│   └── team/
+│
+└── README.md
+```
+
+---
 
 ## Team Members
 
-* Tanmay Nikam
-* Ruksar Mulani
-* Pratiksha Mhaske
-* Archana Ghuge
+- Tanmay Nikam
+- Ruksar Jahirabbas Mulani
+- Pratiksha Mhaske
+- Archana Ghuge
+
+---
 
 ## Objectives
 
-* Develop a responsive multi-page website
-* Apply HTML and CSS concepts in a real-world project
-* Practice collaborative development using GitHub
-* Create a professional software company website
+- Build a professional software company website
+- Apply HTML and CSS concepts in a real-world project
+- Practice responsive web design
+- Learn Git and GitHub collaboration
+- Create reusable website components
+- Improve front-end development skills
 
-## Future Improvements
+---
 
-* Add JavaScript Interactivity
-* Implement Dark Mode
-* Integrate Backend Services
-* Add Database Connectivity
-* Deploy to a Hosting Platform
+## Future Enhancements
+
+- JavaScript Interactivity
+- Backend Integration
+- Database Connectivity
+- User Authentication
+- Dark Mode
+- Live Chat Support
+- Website Deployment
+
+---
+
+## How To Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Root-Socket.git
+```
+
+2. Open the project folder.
+
+3. Open `index.html` in a browser.
+
+---
 
 ## License
 
-This project was developed for educational purposes as part of an academic group project.
+This project was developed for educational purposes as part of a diploma group project.
+
+---
+
+## Repository Information
+
+**Project Name:** Root Socket Software Solutions
+
+**Type:** Educational Group Project
+
+**Developed Using:** HTML5, CSS3, Git & GitHub
+
+**Purpose:** Software Company Website
