@@ -26,6 +26,8 @@ This project was developed as part of a diploma group project to demonstrate fro
 - Company Journey Timeline
 - Development Process Page
 - Mobile-Friendly Layout
+- Mobile hamburger navigation
+- Client-side form submission feedback
 
 ---
 
@@ -175,7 +177,6 @@ Root-Socket/
 
 ## Future Enhancements
 
-- JavaScript Interactivity
 - Backend Integration
 - Database Connectivity
 - User Authentication

@@ -450,6 +450,77 @@ footer{
     width: 48px;
 }
 
+.form-status {
+    width: 100%;
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-align: center;
+}
+
+.menu-toggle {
+    display: none;
+    border: 1px solid var(--accent-color);
+    background: transparent;
+    color: var(--text-light);
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        position: relative;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    header > .name {
+        flex: 1;
+        align-items: flex-start;
+        margin-left: 15px;
+    }
+
+    .name h1 {
+        text-align: left;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding-top: 12px;
+    }
+
+    header nav.is-open ul {
+        display: flex;
+    }
+
+    header nav li {
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    header nav .nav-links {
+        display: block;
+        padding: 12px 8px;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     header{
